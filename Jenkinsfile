@@ -1,4 +1,3 @@
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent {
         docker { image 'node:20.10.0-alpine3.18' }
